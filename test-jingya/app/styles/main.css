@@ -1,0 +1,158 @@
+body{
+  color: #626262;
+  font-family: Arial, '黑体';
+  font-size: 16px;
+  line-height: 1.5em;
+}
+/*header*/
+header{
+  margin: 0 139px;
+  height:370px;
+}
+.banner{
+  background-color: #b4b4b4;
+  width: 100%;
+  height: 73px;
+}
+.logo{
+  background-image: url(../images/logo1.png);
+  background-repeat: no-repeat;
+  width: 99px;
+  height: 65px;
+  position: absolute;
+  margin-left: 10px;
+}
+.login{
+  color: gray;
+  position: absolute;
+  right: 250px;
+  top: 20px;
+  font-size: 14px;
+}
+.register{
+  color: gray;
+  position: absolute;
+  right: 175px;
+  top: 20px;
+  font-size: 14px;
+}
+.login:hover, .register:hover{
+  color: black;
+}
+.head{
+  background-image: url(../images/head.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 248px;
+  margin-top: 10px;
+}
+.links{
+  color: #464646;
+  float: right;
+  font-size: 14px;
+  font-family: '黑体'
+}
+.links a{
+  color: black;
+  text-decoration: none;
+}
+.links a:hover{
+  color: gray;
+}
+.tab-tip{
+  float: left;
+  width: 25%;
+  margin-left: 98px;
+}
+.tab-tip ul{
+  list-style-type: none;
+}
+/*tab..list*/
+.tab-list li{
+  width: 185px;
+  height: 50px;
+  font-family: '黑体';
+}
+.tab-list li a{
+  text-decoration: none;
+}
+.tab-list li.current a{
+  font-size: 20px;
+  color: #ffffff;
+  background: #006fb1;
+  border-left: 15px solid #b7182d;
+  padding:18px 50px 18px 30px;
+}
+.tab-list li a{
+  font-size: 16px;
+  color: #000000;
+  background: #ffffff;
+  border-left: 15px solid #e5e5e5;
+  padding:18px 66px 18px 30px;
+}
+/*footer*/
+.list{
+  border: 2px solid #c8c8c8;
+  border-style: solid none;
+  margin: auto 30px;
+  position: fixed;
+  bottom: 20px;
+  width: 95%;
+  font-family: Cambria;
+  font-size: 12px;
+}
+.list ul{
+  margin-top: 10px;
+  overflow: hidden;
+  margin-left: 230px;
+}
+.list li{
+  float: left;
+  list-style: none;
+}
+.list a{
+  display: block; 
+  padding: 0 16px;
+  text-decoration: none;
+  color:#c8c8c8;
+}
+.list li + li a{
+  border-left:1px solid #aaa;
+}
+.list a:hover{
+  color:black;
+}
+/*main*/
+.main{
+  float: right;
+  width: 60%;
+  height: 1000px;
+  position: absolute;
+  right: 130px;
+}
+.headline{
+  border: 2px solid #cccccc;
+  border-style: none none solid none;
+  color: #000000;
+  font-size: 18px;
+  font-family: '黑体';
+  margin-top: 65px;
+  padding: 0 20px 15px 5px;
+}
+.intro{
+  padding-top: 10px;
+  padding-left: 85px;
+  text-align: left;
+}
+.intro-img{
+  background-image: url(../images/intro.png);
+  width: 100%;
+  height: 347px;
+  margin-top: 25px;
+}
+.contact{
+  padding-left: 85px;
+  text-align: justify;
+  padding-top: 40px;
+}
